@@ -18,3 +18,4 @@ for i in range(25658116,25658196):
     driver.find_element_by_xpath('/html/body/table[3]/tbody/tr/td/font/center[2]/form/div[1]/center/table/tbody/tr[3]/td/input[1]').click()
     page_source = driver.page_source
     soup = BeautifulSoup(page_source,'html.parser')
+print('print') 
